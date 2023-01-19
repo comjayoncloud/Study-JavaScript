@@ -5,6 +5,7 @@ function Base(a) {
   this.a = a;
 }
 
+/** 생성자 함수를 상속받는 서브 클래스 */
 class Derived extends Base {}
 
 const derived = new Derived(1);
