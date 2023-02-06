@@ -16,6 +16,10 @@ Circle.prototype.getArea = function () {
 const circle1 = new Circle(1);
 const circle2 = new Circle(2);
 
+/**
+ * 프로토타입 Circle.prototype으로부터 getArea 메서드를 상속받는다.
+ * 즉 Circle 생성자 함수가 생성하는 모든 인스턴스는 getArea 메서드를 공유한다.
+ */
 console.log(circle1.getArea === circle2.getArea);
 
 console.log(circle1.getArea());

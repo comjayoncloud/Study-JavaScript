@@ -18,3 +18,4 @@ Person.prototype = parent;
 
 console.log(me instanceof Person);
 console.log(me instanceof Object);
+    

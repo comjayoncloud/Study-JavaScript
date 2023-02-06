@@ -5,3 +5,4 @@ const Person = (name) => {
 };
 
 console.log(Person.prototype); // undefined.
+  

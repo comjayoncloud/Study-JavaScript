@@ -9,3 +9,4 @@ console.log(changed);
 /** 프로퍼티 추가 */
 const added = { ...{ x: 1, y: 2 }, z: 0 };
 console.log(added);
+
